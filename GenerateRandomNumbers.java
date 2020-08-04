@@ -7,7 +7,7 @@ public class GenerateRandomNumbers{
         generateRandomNumbers(50);
     }
 
-    void generateRandomNumbers(int n) {
+    public static void generateRandomNumbers(int n) {
         if (n > 0) {
             //populate list with values [1..n]
             List<Integer> list = new ArrayList<Integer>();
